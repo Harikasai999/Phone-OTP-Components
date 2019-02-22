@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Jan 25 10:58:34 IST 2019
+#Thu Feb 21 11:37:06 IST 2019
 5.base=/Users/stellent/Documents/ComponentsSample/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 42.base=/Users/stellent/Documents/ComponentsSample/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 22.path=lib/armeabi-v7a/libprivatedata.so
@@ -18,7 +18,7 @@
 28.set=ASSET
 22.base=/Users/stellent/Documents/ComponentsSample/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 32.base=/Users/stellent/Documents/ComponentsSample/android/app/build/intermediates/assets/debug
-12.path=fonts/Foundation.ttf
+12.path=lib/x86/libimagepipeline.so
 17.set=ASSET
 26.base=/Users/stellent/Documents/ComponentsSample/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 36.base=/Users/stellent/Documents/ComponentsSample/android/app/build/intermediates/assets/debug
@@ -27,7 +27,7 @@
 28.baseType=DIRECTORY
 16.path=fonts/rubicon-icon-font.ttf
 19.baseType=DIRECTORY
-12.base=/Users/stellent/Documents/ComponentsSample/android/app/build/intermediates/assets/debug
+12.base=/Users/stellent/Documents/ComponentsSample/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 8.set=NATIVE_RESOURCE
 7.baseType=DIRECTORY
 35.set=NATIVE_RESOURCE
@@ -85,7 +85,7 @@ count=44
 31.baseType=DIRECTORY
 40.base=/Users/stellent/Documents/ComponentsSample/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 20.path=fonts/Entypo.ttf
-12.set=ASSET
+12.set=NATIVE_RESOURCE
 30.path=lib/x86/libfolly_json.so
 7.base=/Users/stellent/Documents/ComponentsSample/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 19.set=NATIVE_RESOURCE
@@ -137,7 +137,7 @@ count=44
 34.baseType=DIRECTORY
 31.path=fonts/FontAwesome5_Brands.ttf
 8.base=/Users/stellent/Documents/ComponentsSample/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
-11.set=NATIVE_RESOURCE
+11.set=ASSET
 29.set=ASSET
 3.baseType=DIRECTORY
 25.path=classes.dex
@@ -147,7 +147,7 @@ count=44
 21.base=/Users/stellent/Documents/ComponentsSample/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 29.path=fonts/MaterialIcons.ttf
 31.base=/Users/stellent/Documents/ComponentsSample/android/app/build/intermediates/assets/debug
-11.path=lib/x86/libimagepipeline.so
+11.path=fonts/Foundation.ttf
 2.set=ASSET
 39.path=fonts/FontAwesome5_Regular.ttf
 40.set=NATIVE_RESOURCE
@@ -160,7 +160,7 @@ count=44
 19.base=/Users/stellent/Documents/ComponentsSample/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 4.baseType=DIRECTORY
 29.base=/Users/stellent/Documents/ComponentsSample/android/app/build/intermediates/assets/debug
-11.base=/Users/stellent/Documents/ComponentsSample/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
+11.base=/Users/stellent/Documents/ComponentsSample/android/app/build/intermediates/assets/debug
 36.set=ASSET
 39.base=/Users/stellent/Documents/ComponentsSample/android/app/build/intermediates/assets/debug
 1.path=fonts/FontAwesome5_Solid.ttf

@@ -6,22 +6,20 @@
  * @flow
  */
 
-import React, {Component} from 'react';
-import {StyleSheet, View, SafeAreaView, StatusBar} from 'react-native';
-import { createStackNavigator, createAppContainer } from 'react-navigation';
-import AppNavigator from './Src/Containers/AppNavigator.js';
+import React, { Component } from "react";
+import { StyleSheet, View, SafeAreaView, StatusBar } from "react-native";
+import { createStackNavigator, createAppContainer } from "react-navigation";
+import AppNavigator from "./Src/Containers/AppNavigator.js";
 
 type Props = {};
- class App extends Component<Props> {
+
+class App extends Component<Props> {
   render() {
     return (
       <SafeAreaView style={styles.safeAreaStyle}>
         <View style={styles.container}>
-           <StatusBar
-               backgroundColor="black"
-               barStyle="light-content"
-             />          
-          <AppNavigator />          
+          <StatusBar backgroundColor="black" barStyle="light-content" />
+          <AppNavigator />
         </View>
       </SafeAreaView>
     );
@@ -30,11 +28,11 @@ type Props = {};
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F5FCFF',
+    backgroundColor: "#F5FCFF"
   },
-  safeAreaStyle:{
-    flex: 1, 
-    backgroundColor: 'black'
-  },
+  safeAreaStyle: {
+    flex: 1,
+    backgroundColor: "black"
+  }
 });
-export default App
+export default App;

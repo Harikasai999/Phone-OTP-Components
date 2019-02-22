@@ -6,23 +6,25 @@
  * @flow
  */
 
-import React, {Component} from 'react';
-import { createStackNavigator, createAppContainer } from 'react-navigation';
-import Login from './Login.js';
-import Otp from './Otp.js';
-import RatingComponent from './RatingComponent.js';
+import React, { Component } from "react";
+import { createStackNavigator, createAppContainer } from "react-navigation";
+import Login from "./Login.js";
+import Otp from "./Otp.js";
+import RatingComponent from "./RatingComponent.js";
+import GmailAuth from "./GmailAuth.js";
 
 const RootNavigator = createStackNavigator(
   {
+    GmailAuth: { screen: GmailAuth },
     Login: { screen: Login },
     Otp: { screen: Otp },
-    RatingComponent: { screen: RatingComponent },
+    RatingComponent: { screen: RatingComponent }
   },
   {
-    initialRouteName: 'Login',
-    headerMode: 'none',    
-  },
+    initialRouteName: "GmailAuth",
+    headerMode: "none"
+  }
 );
 
 const AppNavigator = createAppContainer(RootNavigator);
-export default AppNavigator
+export default AppNavigator;
